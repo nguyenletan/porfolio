@@ -1,0 +1,123 @@
+---
+navigationLabel: Home
+---
+
+import { format } from 'date-fns';
+import { mix } from '@theme-ui/color';
+import Footer from '../components/footer';
+import Socials from '../components/socials';
+
+export const favTechs = ['React.js', 'Gatsby', 'VueJs', 'Angular', 'JavaScript', 'GraphQL', 'C#', 'HTML5', 'CSS3', 'NodeJs', 'SQL Server', 'MySQL', 'Postgres', 'MariaDB']
+
+# hello
+<Message variant='success' mb={2}>
+  <Text variant='styles.h4'>Hey Everyone, my name is Tan Nguyen LE!</Text>
+  I develop awesome WebApps based on React.js, Gatsby and Pure HTML+CSS+JS. I also know Nodejs, Vuejs, Angular.
+  <Divider/>
+  <Button as='a' mr={2} href='documents/YashDave.pdf' variant='primary' role='button'>Resume📄</Button>
+  <Link href='documents/YashDave.txt' role='button'>.txt version</Link>
+</Message>
+
+<Message variant='success' mb={2}>I have over 10 years in software development. Dabbling into experimental cutting edge new technologies is my favorite pastime. I love motivating others to get into Open-Source!</Message>
+<Divider/>
+<Grid gap={2} columns={[1, '1fr 2fr']}>
+  <Box>
+    <Heading variant='styles.h2'>getInTouch</Heading>
+    <Socials/>
+  </Box>
+  <Box>
+    <Heading variant='styles.h2'>favoriteTech</Heading>
+    {favTechs.map((favTech, index) => {
+        return (
+          <Badge
+            key={index}
+            variant='primary'
+            sx={{
+              mr: 2,
+              mb: 2,
+              color: mix('secondary', 'success', `${index / favTechs.length}`),
+              borderColor: mix(
+                'secondary',
+                'success',
+                `${index / favTechs.length}`
+              ),
+            }}
+          >
+            {favTech}
+          </Badge>
+        )
+      })
+    }
+  </Box>
+</Grid>
+<Divider/>
+<Heading variant='styles.h2'>fetchSideProjects</Heading>
+<SourceList filter='projects'>
+  {projects => (
+    <Flex
+      sx={{
+        flexWrap: 'wrap',
+        ml: theme => `-${theme.space[2]}px`,
+        mr: theme => `-${theme.space[2]}px`,
+      }}
+    >
+      {projects.splice(0, 3).map((edge, index) => {
+        const {
+          frontmatter: { title, date, tags },
+          fields: { slug },
+        } = edge.node
+        return (
+          <Box
+            key={index}
+            sx={{ mb: 3, maxWidth: ['100%', '50%', '33.333%'], width: ['100%', '50%', '33.333%'] }}
+          >
+            <Link href={slug} sx={{textDecoration: 'none'}}>
+              <Card
+                sx={{
+                  ml: 2, 
+                  mr: 2,
+                  p: 3,
+                }}
+              > 
+                <Text sx={{fontSize:0, color:'muted'}}>{format(new Date(date), 'd-MMM-u')}</Text>
+                <Heading variant='styles.h4' sx={{color: 'text'}}>{title}</Heading>
+                {tags.map((tag, index) => {
+                  const { name, count, percent } = tag
+                  return (
+                    <Badge
+                      key={index}
+                      variant='primary'
+                      sx={{
+                        mr: 2,
+                        mb: 2,
+                        color: mix('success', 'secondary',`${index / tags.length}`),
+                        borderColor: mix(
+                          'success',
+                          'secondary',
+                          `${index / tags.length}`
+                        ),
+                      }}
+                    >
+                      {tag}
+                    </Badge>
+                  )
+                })}
+                <Text sx={{textDecoration: 'underline'}}>View project</Text>
+              </Card>
+            </Link>
+          </Box>
+        )
+      })}
+    </Flex>
+  )}
+</SourceList>
+<Flex 
+  sx={{
+    justifyContent: 'center',
+  }}
+>
+  <Button as='a' mr={2} href='/projects' variant='primary' >Show me more!! 👨‍💻👩‍💻</Button>
+</Flex>
+<Divider/>
+
+<Footer/>

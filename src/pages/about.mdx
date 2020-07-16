@@ -1,0 +1,54 @@
+---
+navigationLabel: About
+---
+
+import { mix } from '@theme-ui/color';
+import Footer from '../components/footer';
+
+# aboutMe
+
+<Grid gap={2} columns={[1, '2fr 1fr']}>
+  <Box>
+    Hey Visitor!👋 My name is Tan Nguyen LE, a Front-end developer from SaiGon City, VietNam.
+    I have more 10 years experience in Software Industry. 
+    <Divider/>
+    I am currently living in Melbourne, Australia. 
+    <Divider/>
+    I love working with Open Source Tech while also contributing to them. 
+    Creating websites that look beautiful and are performant is my passion, and ensuring they are accessible is my mission! 
+  </Box>
+  <Box 
+    sx={{
+        display: 'flex',
+        alignItems: 'center',
+        p: 2
+    }}>
+    <Image src="../images/my_photo.jpg" alt='Photo depicting myself, Yash Dave'/>
+  </Box>
+</Grid>
+<Divider/>
+<Grid gap={2} columns={[1, '1fr 1fr']}>  
+    <Box>   
+        <Heading variant='styles.h2'>fetchExperience</Heading>
+        <Heading variant='styles.h3' mb={0}>TMA Solution VietNma</Heading>
+        <Text>.NET Software Engineer</Text>
+        <Text variant='styles.small'>Jan 2006 - May 2007</Text>
+        <Divider />
+        <Heading variant='styles.h3' mb={0}>Pyramid Consulting VietNam</Heading>
+        <Text>.NET Software Engineer</Text>
+        <Text variant='styles.small'>May 2007 - Dec 2009</Text>
+        <Divider />
+        <Heading variant='styles.h3' mb={0}>NashTech VietNam</Heading>
+        <Text>Senior Front End Software Engineer</Text>
+        <Text variant='styles.small'>Dec 2009 - Jan 2020</Text>
+        <Divider />
+    </Box>
+    <Box>   
+        <Heading variant='styles.h2'>fetchEducation</Heading>
+        <Heading variant='styles.h5' mb={0}>Bachelor of Software Engineering</Heading>
+        <Text> University of Science - Ho Chi Minh City</Text>
+        <Text variant='styles.small'>2001 - 2005</Text>
+        <Divider />
+    </Box>
+</Grid>
+<Footer/>
