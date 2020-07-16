@@ -1,10 +1,10 @@
-# amorpheuz.dev
+# TanNguyenLe.dev
 
-Welcome, Everyone!👋 This is the codebase for my, Yash Dave's, portfolio website.
+Welcome, Everyone!👋 This is the codebase for my, Tan Nguyen Le's, portfolio website.
 
 ## Who am I? 👨‍💻
 
-My name is Yash Dave, a Front-end developer and a budding Data Science Enthusiast from the town of Vadodara, Gujarat, India. Creating websites that look beautiful and are performant is my passion, and ensuring they are accessible is my mission! I am currently pursuing a Masters in Computer Applications with Data Science at Symbiosis International University.
+My name is Tan Nguyen Le, a Front-end developer from SaiGon City, VietNam. Creating websites that look beautiful and are performant is my passion, and ensuring they are accessible is my mission!
 
 ## Contributing 🤝
 
