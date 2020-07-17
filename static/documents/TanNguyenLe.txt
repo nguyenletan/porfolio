@@ -1,0 +1,96 @@
+Tan Nguyen LE
+23 Gatcumb Court, Noble Park, Victoria, Australia
+
+Phone: 0467580942
+
+Email: nguyenletan@gmail.com
+
+LinkedIn: linkedin.com/in/amorpheuz
+
+Twitter: twitter.com/evodanh
+
+Github: github.com/nguyenletan
+
+Frontend developer with experience in building webapps based on React.js, GatsbyJs and Pure HTML + CSS + JavaScript. I also know Angular, VueJs, jQuery. I have over 10 years in software development. Backend development enthusiast with knowledge of .NET, NodeJs, GraphQL PostgreSQL, MS-SQL, and MySQL. Love to experiment with new technologies, promote & help beginners getting comfortable with Open Source and an Occasional Blogger.
+
+=============================================
+SKILLS
+=============================================
+* React.js
+* JavaScript
+* HTML5 + CSS3
+* Bootstrap
+* C#, .NET
+* GraphQL
+* NodeJs
+* PostgreSQL, MS-SQL,  MySQL
+* Git
+* VS Code
+* Windows, MacOS and WSL
+
+=============================================
+EXPERIENCE
+=============================================
+2019/01 - 2019/05
+Software Intern / NINtec Business Consulting LLP, Ahmedabad, Gujarat
+o Wrote code on .NET Core platform using Visual Studio, Entity Framework and MS-SQL.
+o Built databases and table structures following ORM methodology for web applications.
+o Evaluated project requirements & specifications and developed software application that surpassed mentor's expectations.
+
+2018/05 - 2018/06
+Software Intern / Potent Embedded Systems, Vadodara, Gujarat
+o Created UML Diagrams for Stock Management application, further used by Software Developers to develop the project.
+o Created modern website for subsidiary of the firm called TraxBee.
+o Designed intuitive UI for Stock Management System.
+
+=============================================
+EDUCATION
+=============================================
+JUNE 2001 - MAY 2006
+Bachelor of Software Engineering / University of Science - Ho Chi Minh City - VietNam
+Graduated with a CGPA of 8.2 / 10 (UGC 10-point system).
+
+=============================================
+PROJECTS CONTRIBUTIONS
+=============================================
+* PTE 79 Tips
+o Website: https://pte79.tips
+o Github: https://github.com/pte79/pte2
+o This is my SIDE PROJECT.
+o PTE 79 Tips is BANK OF REAL EXAM QUESTIONS ON THE MARKET.
+o PTE 79 Tips is a good websites to practice for your PTE test to achieve your target.
+o PTE 79 Tips is a good source for PTE preparation. It is well-updated with new real exam questions, so it is very useful and suitable for anyone who wish to study PTE at home, at their own pace, anywhere and anytime.
+o Technology stack: ReactJs, GatsbyJs, ThemeUI, Styled Component
+
+* Pokemon Wiki
+o Website: https://pokefor.dev/
+o Github:
+  - FrontEnd: https://github.com/nguyenletan/pokemon-wiki-react
+  - BackEnd : https://github.com/nguyenletan/pokemon-wiki-apollo
+o This is my SIDE PROJECT.
+o Pokémon Wiki is the Pokémon GO website. We use ReactJs and Apollo GraphQL to implement this site.
+We are building a crowd sourced meta-Pokedex! We use GraphQL like a API Gateway to get data from the world's largest Pokemon GO database - GO Hub's Pokemon GO.
+o Technology Stack: React.js, Apollo GraphQL.
+
+* Edvidor
+o Website: https://www.edvisor.io/
+o Edvisor for Schools is a platform that helps schools push their offerings faster and further around the globe by providing a direct distribution channel to education consultants.
+o Edvisor.io allows students to find programs and create quotes of your offerings directly.
+o Edvisor helps to connect with thousands of agents around the world and provide them with real-time access to your programs, pricing, and marketing media. 
+o Technology Stack: AngularJS 1.xx, GraphQL, NodeJs.
+
+* iVisas
+o iVisas is a demo projects for a verifiable claim is qualification, achievement, quality, or piece of information about an entity's background such as a name, government ID, payment provider, home address, or university degree.
+o Technology Stack: VueJs, Vuesax, NodesJs, PostgreSQL. 
+
+* Cx Housing
+o Cx Housing isthe digital platform for social housing connects your customer and property data to create a single version of the truth. It allows to manage the customers' differing needs and the property they live in.
+o Technology Stack: ASP.NET MVC, jQuery, KendoUI, MS-SQL.
+
+* Vielife
+o Vielife is a platform that provides personalised information on how to improve performance by focusing on sleep patterns and habits, stress management, nutrition and physical activity.
+o Technology Stack: ASP.NET MVC, jQuery, KendoUI, MS-SQL.
+
+* Marqui CMS
+o Marqui CMS is a web content management platform serving small marketing teams to large multi-site organizations with various pages and users.
+o Technology Stack: ASP.NET Webform, jQuery, MS-SQL.

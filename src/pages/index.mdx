@@ -12,10 +12,10 @@ export const favTechs = ['React.js', 'Gatsby', 'VueJs', 'Angular', 'JavaScript',
 # hello
 <Message variant='success' mb={2}>
   <Text variant='styles.h4'>Hey Everyone, my name is Tan Nguyen LE!</Text>
-  I develop awesome WebApps based on React.js, Gatsby and Pure HTML+CSS+JS. I also know Nodejs, Vuejs, Angular.
+  I develop awesome WebApps based on React.js, Gatsby and Pure HTML+CSS+JS. I also know VueJs, Angular, Gatsby, JavaScript, StyledComponents, Theme UI, Bootstrap Storybook, Jest/Enzyme/React Testing Library and a tiny bit of Typescript, Nodejs, Apollo/GraphQL.
   <Divider/>
-  <Button as='a' mr={2} href='documents/YashDave.pdf' variant='primary' role='button'>Resume📄</Button>
-  <Link href='documents/YashDave.txt' role='button'>.txt version</Link>
+  <Button as='a' mr={2} href='documents/CV.pdf' variant='primary' role='button' sx={{fontWeight: 600}}>Resume📄</Button>
+  <Link href='documents/TanNguyenLe.txt' role='button'>.txt version</Link>
 </Message>
 
 <Message variant='success' mb={2}>I have over 10 years in software development. Dabbling into experimental cutting edge new technologies is my favorite pastime. I love motivating others to get into Open-Source!</Message>
@@ -51,7 +51,7 @@ export const favTechs = ['React.js', 'Gatsby', 'VueJs', 'Angular', 'JavaScript',
   </Box>
 </Grid>
 <Divider/>
-<Heading variant='styles.h2'>fetchSideProjects</Heading>
+<Heading variant='styles.h2'>fetchProjects</Heading>
 <SourceList filter='projects'>
   {projects => (
     <Flex
@@ -77,6 +77,8 @@ export const favTechs = ['React.js', 'Gatsby', 'VueJs', 'Angular', 'JavaScript',
                   ml: 2, 
                   mr: 2,
                   p: 3,
+                  height: '100%',
+                  boxShadow: 'none'
                 }}
               > 
                 <Text sx={{fontSize:0, color:'muted'}}>{format(new Date(date), 'd-MMM-u')}</Text>

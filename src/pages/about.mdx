@@ -4,6 +4,7 @@ navigationLabel: About
 
 import { mix } from '@theme-ui/color';
 import Footer from '../components/footer';
+import Reference from "../components/reference.js";
 
 # aboutMe
 
@@ -27,26 +28,62 @@ import Footer from '../components/footer';
   </Box>
 </Grid>
 <Divider/>
-<Grid gap={2} columns={[1, '1fr 1fr']}>  
+<Grid gap={2} columns={[1, '1fr 1fr 1fr']}>  
     <Box>   
         <Heading variant='styles.h2'>fetchExperience</Heading>
-        <Heading variant='styles.h3' mb={0}>TMA Solution VietNma</Heading>
-        <Text>.NET Software Engineer</Text>
-        <Text variant='styles.small'>Jan 2006 - May 2007</Text>
-        <Divider />
-        <Heading variant='styles.h3' mb={0}>Pyramid Consulting VietNam</Heading>
-        <Text>.NET Software Engineer</Text>
-        <Text variant='styles.small'>May 2007 - Dec 2009</Text>
-        <Divider />
         <Heading variant='styles.h3' mb={0}>NashTech VietNam</Heading>
         <Text>Senior Front End Software Engineer</Text>
         <Text variant='styles.small'>Dec 2009 - Jan 2020</Text>
         <Divider />
+         <Heading variant='styles.h3' mb={0}>Pyramid Consulting VietNam</Heading>
+        <Text>.NET Software Engineer</Text>
+        <Text variant='styles.small'>May 2007 - Dec 2009</Text>
+        <Divider />
+        <Heading variant='styles.h3' mb={0}>TMA Solution VietNam</Heading>
+        <Text>.NET Software Engineer</Text>
+        <Text variant='styles.small'>Jan 2006 - May 2007</Text>
+        <Divider />
+    </Box>
+    <Box>   
+        <Heading variant='styles.h2'>getReferences</Heading>
+        <Reference 
+            name="Huy Nguyen" 
+            title="Principle Engineer at Atlassian" 
+            tel="0403981380"
+            email="tuonghuy@gmail.com"
+            linkedin="https://www.linkedin.com/in/huy-nguyen-073a9023"
+        />
+        <Reference
+           name="Phi Huynh" 
+           title="Senior Innovation Manager at NashTech Limited" 
+           tel="+84919833383"
+           email="phi.huynh@nashtechglobal.com"
+           linkedin="https://www.linkedin.com/in/trumhemcut/"
+        />
+        <Reference
+           name="Toan Vo" 
+           title="Senior Developer at MYOB New Zealand" 
+           tel="+642108774618"
+           email="toan.vo@myob.com"
+           linkedin="https://www.linkedin.com/in/toanvo/"
+        />
+        <Reference
+           name="Cuong Le" 
+           title="Senior Developer at Rosslyn Data Technologies London UK" 
+           tel="+07719240314"
+           email="cuong.le@rosslyndatatech.com"
+           linkedin="https://www.linkedin.com/in/cuongln/"
+        />
     </Box>
     <Box>   
         <Heading variant='styles.h2'>fetchEducation</Heading>
-        <Heading variant='styles.h5' mb={0}>Bachelor of Software Engineering</Heading>
-        <Text> University of Science - Ho Chi Minh City</Text>
+        <Heading 
+            variant='styles.h5' 
+            mb={0} 
+            sx={{
+              color: mix("primary", "secondary", `0.5`),
+            }}>Bachelor of Software Engineering</Heading>
+        <Text> University of Science - Ho Chi Minh City - VietNam</Text>
         <Text variant='styles.small'>2001 - 2005</Text>
         <Divider />
     </Box>

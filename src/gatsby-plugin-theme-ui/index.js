@@ -1,5 +1,5 @@
-import codeTheme from "@theme-ui/prism/presets/prism-funky.json";
-import baseTheme from "@pauliescanlon/gatsby-theme-terminal/src/gatsby-plugin-theme-ui";
+import codeTheme from "@theme-ui/prism/presets/prism-funky.json"
+import baseTheme from "@pauliescanlon/gatsby-theme-terminal/src/gatsby-plugin-theme-ui"
 
 export default {
   ...baseTheme,
@@ -20,26 +20,14 @@ export default {
         secondary: "#a44185",
         success: "#48ADA9",
         background: "#fff",
-        surface: "#e0ecf1"
-      }
-    }
+        surface: "#e0ecf1",
+      },
+    },
   },
-  fontSizes: [
-    12,
-    14,
-    17,
-    20,
-    24,
-    32,
-    48,
-    64,
-    96
-  ],
+  fontSizes: [12, 14, 17, 20, 24, 32, 48, 64, 96],
   fonts: {
-    body:
-      '"IBM Plex Mono", monospace',
-    heading:
-      '"IBM Plex Mono", monosapce',
+    body: '"IBM Plex Mono", monospace',
+    heading: '"IBM Plex Mono", monosapce',
     monospace: '"IBM Plex Mono", monospace',
     size: "16px",
   },
@@ -48,18 +36,18 @@ export default {
     p: {
       code: {
         ...baseTheme.styles.p.code,
-        color: "inherit"
-      }
+        color: "inherit",
+      },
     },
     li: {
       code: {
         ...baseTheme.styles.p.code,
-        color: "inherit"
-      }
+        color: "inherit",
+      },
     },
     pre: {
       ...baseTheme.styles.pre,
-      ...codeTheme
-    }
-  }
-};
+      ...codeTheme,
+    },
+  },
+}
