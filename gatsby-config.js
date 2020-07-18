@@ -14,8 +14,8 @@ module.exports = {
       "theme UI"
     ],
     siteUrl: "https://tannguyenle.netlify.app",
-    siteImage: "images/my_photo.jpg",
-    profileImage: `images/my_photo.jpg`,
+    siteImage: "images/favicon-128x128.png",
+    profileImage: `images/favicon-64x64.png`,
     lang: `en`,
     config: {
       sidebarWidth: 280,
