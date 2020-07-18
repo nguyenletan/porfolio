@@ -2,7 +2,6 @@
 
 import React from "react"
 import { jsx, Heading, Link, Text, Divider } from "theme-ui"
-import { mix } from '@theme-ui/color';
 
 export default function Reference({ name, email, title, tel, linkedin }) {
   const telHref = `tel:${tel}`
@@ -29,7 +28,7 @@ export default function Reference({ name, email, title, tel, linkedin }) {
         </Link>
       </Text>
       <Text variant="styles.small">
-        Linkedin:
+        LinkedIn:
         <Link
           variant="styles.small"
           href={linkedin}

@@ -24,10 +24,10 @@ export default {
       },
     },
   },
-  fontSizes: [12, 14, 17, 20, 24, 32, 48, 64, 96],
+  fontSizes: [13, 14, 17, 26, 28, 32, 48, 64, 96],
   fonts: {
-    body: '"IBM Plex Mono", monospace',
-    heading: '"IBM Plex Mono", monosapce',
+    body: '"Roboto Mono", monospace',
+    heading: '"Space Mono", monosapce',
     monospace: '"IBM Plex Mono", monospace',
     size: "16px",
   },
