@@ -15,7 +15,7 @@ module.exports = {
     ],
     siteUrl: "https://tannguyenle.netlify.app",
     siteImage: "images/favicon-32x32.png",
-    profileImage: `images/favicon-32x32.png`,
+    profileImage: `images/my_photo.png`,
     lang: `en`,
     config: {
       sidebarWidth: 280,
