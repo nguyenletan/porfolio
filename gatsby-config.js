@@ -7,7 +7,6 @@ module.exports = {
       "frontend developer",
       "javascript",
       "frontend dev",
-      "amorpheuz",
       "Tan Nguyen Le",
       "react dev",
       "javascript dev",
@@ -33,7 +32,6 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `IBM Plex Mono\:400,400i,500,500i,600,600i,700, 700i`,
           `Roboto Mono\:400,400i,500,500i,600,600i,700, 700i`,
           `Space Mono\:400,400i,700, 700i`
           // you can also specify font weights and styles

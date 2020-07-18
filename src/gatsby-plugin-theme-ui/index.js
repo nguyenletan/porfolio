@@ -28,7 +28,7 @@ export default {
   fonts: {
     body: '"Roboto Mono", monospace',
     heading: '"Space Mono", monosapce',
-    monospace: '"IBM Plex Mono", monospace',
+    monospace: '"Roboto Mono", monospace',
     size: "16px",
   },
   styles: {

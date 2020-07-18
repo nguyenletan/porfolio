@@ -7,7 +7,7 @@ export default function Reference({ name, email, title, tel, linkedin }) {
   const telHref = `tel:${tel}`
   const mailTo = `mailto:${email}`
   return (
-    <>
+    <React.Fragment>
       <Heading variant="styles.h5" mb={0}>
         {name}
       </Heading>
@@ -31,6 +31,6 @@ export default function Reference({ name, email, title, tel, linkedin }) {
         </Link>
       </Text>
       <Divider />
-    </>
+    </React.Fragment>
   )
 }
