@@ -32,12 +32,5 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Amorpheuz/amorpheuz.github.io"
-  },
-  "bugs": {
-    "url": "https://github.com/Amorpheuz/amorpheuz.github.io/issues"
   }
 }

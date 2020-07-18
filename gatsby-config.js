@@ -14,7 +14,7 @@ module.exports = {
       "theme UI"
     ],
     siteUrl: "https://tannguyenle.netlify.app",
-    siteImage: "images/favicon-32x32.png",
+    siteImage: "images/my_photo.png",
     profileImage: `images/my_photo.png`,
     lang: `en`,
     config: {
@@ -42,7 +42,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://nguyenletan.dev`,
+        siteUrl: `https://tannguyenle.netlify.app`,
       },
     },
     {
