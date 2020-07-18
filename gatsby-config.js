@@ -12,7 +12,7 @@ module.exports = {
       "react dev",
       "javascript dev",
       "gatsbyjs",
-      "theme UI"
+      "theme UI",
     ],
     siteUrl: "https://tannguyenle.netlify.app",
     siteImage: "images/favicon-32x32.png",
@@ -33,10 +33,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `IBM Plex Mono\:400,400i,500,500i,600,600i,700, 700i`, 
-          `Roboto Mono\:400,400i,500,500i,600,600i,700, 700i`, 
+          `IBM Plex Mono\:400,400i,500,500i,600,600i,700, 700i`,
+          `Roboto Mono\:400,400i,500,500i,600,600i,700, 700i`,
           `Fira Code\:400,400i,500,500i,600,600i,700, 700i`,
-          `Space Mono\:400,400i,700, 700i`
+          `Space Mono\:400,400i,700, 700i`,
           // you can also specify font weights and styles
         ],
         display: "swap",

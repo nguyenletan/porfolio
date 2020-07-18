@@ -3,7 +3,7 @@ import { Fragment } from "react"
 import { jsx } from "theme-ui"
 import { MdxRoutes } from "@pauliescanlon/gatsby-mdx-routes"
 import { Link } from "gatsby"
-import './index.css'
+import "./index.css"
 
 import { Logo } from "../Logo/Logo"
 import ThemeSwitch from "./themeswitch"
