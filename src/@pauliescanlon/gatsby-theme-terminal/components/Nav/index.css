@@ -7,5 +7,4 @@ body {
   font-feature-settings: "onum" 1;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: antialiased;
 }
