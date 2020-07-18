@@ -5,13 +5,10 @@ import { jsx, Heading, Link, Text, Divider } from "theme-ui"
 
 export default function Reference({ name, email, title, tel, linkedin }) {
   const telHref = `tel:${tel}`
-  const mailTo =  `mailto:${email}`
+  const mailTo = `mailto:${email}`
   return (
     <>
-      <Heading
-        variant="styles.h5"
-        mb={0}
-      >
+      <Heading variant="styles.h5" mb={0}>
         {name}
       </Heading>
       <Text> {title} </Text>
@@ -29,10 +26,7 @@ export default function Reference({ name, email, title, tel, linkedin }) {
       </Text>
       <Text variant="styles.small">
         LinkedIn:
-        <Link
-          variant="styles.small"
-          href={linkedin}
-        >
+        <Link variant="styles.small" href={linkedin}>
           {linkedin}
         </Link>
       </Text>

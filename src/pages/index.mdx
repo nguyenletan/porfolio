@@ -2,61 +2,94 @@
 navigationLabel: Home
 ---
 
-import { format } from 'date-fns';
-import { mix } from '@theme-ui/color';
-import Footer from '../components/footer';
-import Socials from '../components/socials';
+import { format } from "date-fns"
+import { mix } from "@theme-ui/color"
+import Footer from "../components/footer"
+import Socials from "../components/socials"
 
-export const favTechs = ['ReactJS', 'GatsbyJS', 'VueJS', 'Angular', 'JavaScript', 'GraphQL', 'C#', 'HTML5', 'CSS3', 'NodeJs', 'SQL Server', 'MySQL', 'Postgres', 'MariaDB']
+export const favTechs = [
+  "ReactJS",
+  "GatsbyJS",
+  "VueJS",
+  "Angular",
+  "JavaScript",
+  "GraphQL",
+  "C#",
+  "HTML5",
+  "CSS3",
+  "NodeJs",
+  "SQL Server",
+  "MySQL",
+  "Postgres",
+  "MariaDB",
+]
 
 # hello
-<Message variant='success' mb={2}>
-  <Text variant='styles.h4'>Hey Everyone, my name is Tan Nguyen LE!</Text>
-  I develop awesome WebApps based on <b>ReactJS</b>, <b>GatsbyJS</b> and Pure <b>HTML+CSS+JS</b>. I also know VueJS, Angular, Gatsby, JavaScript, StyledComponents, Theme UI, Bootstrap, Jest/Enzyme and a tiny bit of Typescript, Nodejs, Apollo/GraphQL.
-  <Divider/>
-  <Button as='a' mr={2} href='documents/tannguyenle.pdf' variant='primary' role='button' sx={{fontWeight: 600}}>Resume📄</Button>
-  <Link href='documents/TanNguyenLe.txt' role='button'>.txt version</Link>
+
+<Message variant="success" mb={2}>
+  <Text variant="styles.h4">Hey Everyone, my name is Tan Nguyen LE!</Text>I develop
+  awesome WebApps based on <b>ReactJS</b>, <b>GatsbyJS</b> and Pure <b>
+    HTML+CSS+JS
+  </b>. I also know VueJS, Angular, Gatsby, JavaScript, StyledComponents, Theme UI,
+  Bootstrap, Jest/Enzyme and a tiny bit of Typescript, Nodejs, Apollo/GraphQL.
+  <Divider />
+  <Button
+    as="a"
+    mr={2}
+    href="documents/tannguyenle.pdf"
+    variant="primary"
+    role="button"
+    sx={{ fontWeight: 600 }}
+  >
+    Resume📄
+  </Button>
+  <Link href="documents/TanNguyenLe.txt" role="button">
+    .txt version
+  </Link>
 </Message>
 
-<Message variant='success' mb={2}>I have over 10 years in software development. Dabbling into experimental cutting edge new technologies is my favorite pastime. I love motivating others to get into Open-Source!</Message>
-<Divider/>
-<Grid gap={2} columns={[1, '1fr 2fr']}>
+<Message variant="success" mb={2}>
+  I have over 10 years in software development. Dabbling into experimental
+  cutting edge new technologies is my favorite pastime. I love motivating others
+  to get into Open-Source!
+</Message>
+<Divider />
+<Grid gap={2} columns={[1, "1fr 2fr"]}>
   <Box>
-    <Heading variant='styles.h2'>getInTouch</Heading>
-    <Socials/>
+    <Heading variant="styles.h2">getInTouch</Heading>
+    <Socials />
   </Box>
   <Box>
-    <Heading variant='styles.h2'>favoriteTech</Heading>
+    <Heading variant="styles.h2">favoriteTech</Heading>
     {favTechs.map((favTech, index) => {
-        return (
-          <Badge
-            key={index}
-            variant='primary'
-            sx={{
-              mr: 2,
-              mb: 2,
-              color: mix('secondary', 'success', `${index / favTechs.length}`),
-              borderColor: mix(
-                'secondary',
-                'success',
-                `${index / favTechs.length}`
-              ),
-            }}
-          >
-            {favTech}
-          </Badge>
-        )
-      })
-    }
+      return (
+        <Badge
+          key={index}
+          variant="primary"
+          sx={{
+            mr: 2,
+            mb: 2,
+            color: mix("secondary", "success", `${index / favTechs.length}`),
+            borderColor: mix(
+              "secondary",
+              "success",
+              `${index / favTechs.length}`
+            ),
+          }}
+        >
+          {favTech}
+        </Badge>
+      )
+    })}
   </Box>
 </Grid>
-<Divider/>
-<Heading variant='styles.h2'>fetchProjects</Heading>
-<SourceList filter='projects'>
+<Divider />
+<Heading variant="styles.h2">fetchProjects</Heading>
+<SourceList filter="projects">
   {projects => (
     <Flex
       sx={{
-        flexWrap: 'wrap',
+        flexWrap: "wrap",
         ml: theme => `-${theme.space[2]}px`,
         mr: theme => `-${theme.space[2]}px`,
       }}
@@ -69,33 +102,45 @@ export const favTechs = ['ReactJS', 'GatsbyJS', 'VueJS', 'Angular', 'JavaScript'
         return (
           <Box
             key={index}
-            sx={{ mb: 3, maxWidth: ['100%', '50%', '33.333%'], width: ['100%', '50%', '33.333%'] }}
+            sx={{
+              mb: 3,
+              maxWidth: ["100%", "50%", "33.333%"],
+              width: ["100%", "50%", "33.333%"],
+            }}
           >
-            <Link href={slug} sx={{textDecoration: 'none'}}>
+            <Link href={slug} sx={{ textDecoration: "none" }}>
               <Card
                 sx={{
-                  ml: 2, 
+                  ml: 2,
                   mr: 2,
                   p: 3,
-                  height: '100%',
-                  boxShadow: 'none'
+                  height: "100%",
+                  boxShadow: "none",
                 }}
-              > 
-                <Text sx={{fontSize:0, color:'muted'}}>{format(new Date(date), 'd-MMM-u')}</Text>
-                <Heading variant='styles.h4' sx={{color: 'text'}}>{title}</Heading>
+              >
+                <Text sx={{ fontSize: 0, color: "muted" }}>
+                  {format(new Date(date), "d-MMM-u")}
+                </Text>
+                <Heading variant="styles.h4" sx={{ color: "text" }}>
+                  {title}
+                </Heading>
                 {tags.map((tag, index) => {
                   const { name, count, percent } = tag
                   return (
                     <Badge
                       key={index}
-                      variant='primary'
+                      variant="primary"
                       sx={{
                         mr: 2,
                         mb: 2,
-                        color: mix('success', 'secondary',`${index / tags.length}`),
+                        color: mix(
+                          "success",
+                          "secondary",
+                          `${index / tags.length}`
+                        ),
                         borderColor: mix(
-                          'success',
-                          'secondary',
+                          "success",
+                          "secondary",
                           `${index / tags.length}`
                         ),
                       }}
@@ -104,7 +149,7 @@ export const favTechs = ['ReactJS', 'GatsbyJS', 'VueJS', 'Angular', 'JavaScript'
                     </Badge>
                   )
                 })}
-                <Text sx={{textDecoration: 'underline'}}>View project</Text>
+                <Text sx={{ textDecoration: "underline" }}>View project</Text>
               </Card>
             </Link>
           </Box>
@@ -113,13 +158,15 @@ export const favTechs = ['ReactJS', 'GatsbyJS', 'VueJS', 'Angular', 'JavaScript'
     </Flex>
   )}
 </SourceList>
-<Flex 
+<Flex
   sx={{
-    justifyContent: 'center',
+    justifyContent: "center",
   }}
 >
-  <Button as='a' mr={2} href='/projects' variant='primary' >Show me more!! 👨‍💻👩‍💻</Button>
+  <Button as="a" mr={2} href="/projects" variant="primary">
+    Show me more!! 👨‍💻👩‍💻
+  </Button>
 </Flex>
-<Divider/>
+<Divider />
 
-<Footer/>
+<Footer />
