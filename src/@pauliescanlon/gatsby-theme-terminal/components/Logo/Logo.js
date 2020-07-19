@@ -5,7 +5,8 @@ import styled from "styled-components"
 const H2 = styled("h2")`
   width: 300px;
   font-weight: 700;
-  text-align: right;
+  text-align: left;
+  white-space: no-wrap;
 `
 
 export const Logo = () => <H2 sx={{ color: "success" }}>Tan Nguyen LE</H2>
