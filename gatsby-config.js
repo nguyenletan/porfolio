@@ -42,7 +42,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://tannguyenle.netlify.app`,
+        siteUrl: `https://tannguyenle.info`,
       },
     },
     {
