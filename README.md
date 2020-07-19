@@ -1,10 +1,18 @@
-# TanNguyenLe.dev
+# tannguyenle.info
 
 Welcome, Everyone!👋 This is the codebase for my, Tan Nguyen Le's, portfolio website.
 
 ## Who am I? 👨‍💻
 
 My name is Tan Nguyen Le, a Front-end developer from SaiGon City, VietNam. Creating websites that look beautiful and are performant is my passion, and ensuring they are accessible is my mission!
+
+## Screenshot
+
+![](https://github.com/nguyenletan/porfolio/blob/master/static/images/screencapture1.png)
+
+![](https://github.com/nguyenletan/porfolio/blob/master/static/images/screencapture2.png)
+
+![](https://github.com/nguyenletan/porfolio/blob/master/static/images/screencapture3.png)
 
 ## Contributing 🤝
 
