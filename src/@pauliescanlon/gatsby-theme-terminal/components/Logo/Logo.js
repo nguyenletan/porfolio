@@ -3,7 +3,7 @@ import { jsx } from "theme-ui"
 import styled from "styled-components"
 
 const H2 = styled("h2")`
-  width: 280px;
+  width: 300px;
   font-weight: 700;
   text-align: right;
 `
