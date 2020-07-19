@@ -27,7 +27,7 @@ export default {
   fontSizes: [13, 14, 17, 26, 28, 32, 48, 64, 96],
   fonts: {
     body: '"Roboto Mono", monospace',
-    heading: '"Space Mono", monosapce',
+    heading: '"Roboto Mono", monosapce',
     monospace: '"Roboto Mono", monospace',
     size: "16px",
   },
