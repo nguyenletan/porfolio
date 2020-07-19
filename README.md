@@ -8,9 +8,9 @@ My name is Tan Nguyen Le, a Front-end developer from SaiGon City, VietNam. Creat
 
 ## Screenshot
 
-![](https://github.com/nguyenletan/porfolio/blob/master/static/images/screencapture1.png)
+![Light Theme](https://github.com/nguyenletan/porfolio/blob/master/static/images/screencapture1.png)
 
-![](https://github.com/nguyenletan/porfolio/blob/master/static/images/screencapture2.png)
+![Dark Theme](https://github.com/nguyenletan/porfolio/blob/master/static/images/screencapture2.png)
 
 ![](https://github.com/nguyenletan/porfolio/blob/master/static/images/screencapture3.png)
 
