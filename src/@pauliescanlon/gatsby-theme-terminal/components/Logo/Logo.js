@@ -3,7 +3,7 @@ import { jsx } from "theme-ui"
 import styled from "styled-components"
 
 const H2 = styled("h2")`
-  width: 190px;
+  width: 200px;
   font-weight: 700;
 `
 
