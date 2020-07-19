@@ -1,48 +1,94 @@
 /** @jsx jsx */
-import { Fragment } from "react"
-import { jsx } from "theme-ui"
 import { MdxRoutes } from "@pauliescanlon/gatsby-mdx-routes"
-import { Link } from "gatsby"
-import "./index.css"
-import { Logo } from "../Logo/Logo"
-import ThemeSwitch from "./themeswitch"
 
-import {logo, nav, ul, li, link} from "@pauliescanlon/gatsby-theme-terminal/src/components/Nav/styles"
+import * as theme
+  from "@pauliescanlon/gatsby-theme-terminal/src/gatsby-plugin-theme-ui"
+
+import { Link as GatsbyLink } from "gatsby"
+import { Fragment } from "react"
+import { Box, jsx } from "theme-ui"
+import { Logo } from "../Logo/Logo"
+import "./index.css"
+import ThemeSwitch from "./themeswitch"
 
 const DUMMY = "dummy"
 
 export const Nav = () => (
+  
   <Fragment>
-    <div sx={logo}>
-      <Logo />
-    </div>
-    <div></div>
-    <nav sx={nav}>
+    <Box
+      sx={{
+        alignItems: "center",
+        display: "flex",
+        height: theme => `${theme.space[5]}px`,
+        justifyContent: ["flex-start", "flex-start", "flex-start", "flex-end"],
+        overFlow: "hidden",
+        px: 4
+      }}
+    >
+      <Logo/>
+    </Box>
+    <Box
+      as="nav"
+      sx={{
+        height: "100%",
+        py: 3,
+        px: 4
+      }}
+    >
       <MdxRoutes>
         {(routes, _) => (
-          <ul sx={ul}>
-            {routes
-              .filter(
-                route =>
-                  route.navigationLabel && route.navigationLabel !== DUMMY
-              )
-              .map((route, index) => (
-                <li sx={li} key={index}>
-                  <Link
-                    sx={link}
-                    activeClassName="active-link"
-                    to={route.slug}
-                  >
-                    {route.navigationLabel}
-                  </Link>
-                </li>
-              ))}
-            <li sx={li}>
-              <ThemeSwitch />
+          <Box
+            as="ul"
+            sx={{
+              listStyle: "none",
+              mt: 2,
+              p: 0
+            }}
+          >
+            {routes.filter(
+              route =>
+                route.navigationLabel && route.navigationLabel !== DUMMY
+            ).map((route, index) => (
+              <Box
+                as="li"
+                sx={{
+                  textAlign: ["left", "left", "left", "right"],
+                  a: {
+                    ...theme.default.styles.a
+                  },
+                  ".active-link": {
+                    textDecoration: "none",
+                    color: "text",
+                    cursor: "default",
+                    ":before": {
+                      pr: [2, 2, 2, 0],
+                      content: [`"-"`, `"-"`, `"-"`, `""`]
+                    },
+                    ":after": {
+                      pl: [0, 0, 0, 2],
+                      content: [`""`, `""`, `""`, `"-"`]
+                    },
+                    ":focus": {
+                      boxShadow: "none"
+                    }
+                  }
+                }}
+                key={index}
+              >
+                <GatsbyLink activeClassName="active-link" to={route.slug}>
+                  {route.navigationLabel}
+                </GatsbyLink>
+              </Box>
+            ))}
+            <li sx={{
+              textAlign: ["left", "left", "left", "right"]
+            }}>
+              <ThemeSwitch/>
             </li>
-          </ul>
+          </Box>
         )}
       </MdxRoutes>
-    </nav>
+    </Box>
   </Fragment>
 )

@@ -7,7 +7,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.11",
     "@mdx-js/react": "^1.6.11",
-    "@pauliescanlon/gatsby-theme-terminal": "^0.0.30",
+    "@pauliescanlon/gatsby-theme-terminal": "^0.0.31",
     "@theme-ui/prism": "^0.3.0",
     "gatsby": "^2.24.4",
     "gatsby-plugin-canonical-urls": "^2.3.10",

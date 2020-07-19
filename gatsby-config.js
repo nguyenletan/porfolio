@@ -13,7 +13,7 @@ module.exports = {
       "gatsbyjs",
       "theme UI"
     ],
-    siteUrl: "https://tannguyenle.netlify.app",
+    siteUrl: "https://tannguyenle.info",
     siteImage: "images/favicon-128x128.png",
     profileImage: `images/favicon-64x64.png`,
     lang: `en`,
