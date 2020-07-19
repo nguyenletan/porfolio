@@ -9,6 +9,8 @@ LinkedIn: https://www.linkedin.com/in/tan-nguyen-le-b3797023/
 
 Twitter: twitter.com/evodanh
 
+Personal Website: https://tannguyenle.info
+
 GitHub: https://github.com/nguyenletan
 
 Front-end developer with experience in building webapps based on ReactJS, GatsbyJS and Pure HTML + CSS + JavaScript. I also know Angular, VueJs, jQuery. I have over 10 years in software development. Back-end development enthusiast with knowledge of .NET, NodeJs, GraphQL PostgreSQL, MS-SQL, and MySQL. Love to experiment with new technologies, promote & help beginners getting comfortable with Open Source.
