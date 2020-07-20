@@ -6,7 +6,7 @@ const H2 = styled("h2")`
   width: 300px;
   font-weight: 700;
   text-align: left;
-  white-space: no-wrap;
+  white-space: nowrap;
 `
 
 export const Logo = () => <H2 sx={{ color: "success" }}>Tan Nguyen LE</H2>
