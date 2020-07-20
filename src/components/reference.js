@@ -12,12 +12,12 @@ export default function Reference({ name, email, title, tel, linkedin }) {
         {name}
       </Heading>
       <Text> {title} </Text>
-      <Text variant="styles.small">
-        Tel:{" "}
-        <Link variant="styles.small" href={telHref}>
-          {tel}
-        </Link>
-      </Text>
+      {/*<Text variant="styles.small">*/}
+      {/*  Tel:{" "}*/}
+      {/*  <Link variant="styles.small" href={telHref}>*/}
+      {/*    {tel}*/}
+      {/*  </Link>*/}
+      {/*</Text>*/}
       <Text variant="styles.small">
         Email:{" "}
         <Link href={mailTo} variant="styles.small">
