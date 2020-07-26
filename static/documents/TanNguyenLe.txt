@@ -55,6 +55,20 @@ Graduated with a CGPA of 8.02 / 10 (UGC 10-point system).
 =============================================
 PROJECTS CONTRIBUTIONS
 =============================================
+* Personal website, side project
+o	Website: https://tannguyenle.info
+o	GitHub: https://github.com/nguyenletan/porfolio
+o	Use React, Gatsby and ThemeUI to implement
+o	Tech stack: ReactJS, GatsbyJs, ThemeUI, Styled Component
+
+* August Demo, side project
+o	Website: https://august-demo.netlify.app
+o	GitHub: https://github.com/nguyenletan/august
+o	This is my side project. I tried to copy this August home page to show my skill.
+o	Use React, Bootstrap and Styled Component to implement
+o	Tech stack: ReactJS, GatsbyJs, Bootstrap, Styled Component
+
+
 * PTE 79 Tips
 o Website: https://pte79.tips
 o GitHub: https://github.com/pte79/pte2
@@ -74,16 +88,16 @@ o We used ReactJS and Apollo GraphQL to implement this site.
 o We are building a crowd sourced meta-Pokedex! We use GraphQL like a API Gateway to get data from the world's largest Pokemon GO database - GO Hub's Pokemon GO.
 o Tech stack: ReactJS, Apollo GraphQL.
 
-* Edvidor
+* Edvisor.io
 o Website: https://www.edvisor.io/
-o Edvisor for Schools is a platform that helps schools push their offerings faster and further around the globe by providing a direct distribution channel to education consultants.
+o Edvisor.io for Schools is a platform that helps schools push their offerings faster and further around the globe by providing a direct distribution channel to education consultants.
 o Edvisor.io allows students to find programs and create quotes of your offerings directly.
-o Edvisor helps to connect with thousands of agents around the world and provide them with real-time access to your programs, pricing, and marketing media. 
+o Edvisor helps to connect with thousands of agents around the world and provide them with real-time access to your programs, pricing, and marketing media.
 o Tech stack: AngularJS 1.xx, GraphQL, NodeJs.
 
 * iVisas
 o iVisas is a demo projects for a verifiable claim is qualification, achievement, quality, or piece of information about an entity's background such as a name, government ID, payment provider, home address, or university degree.
-o Tech stack: VueJs, Vuesax, NodesJs, PostgreSQL. 
+o Tech stack: VueJs, Vuesax, NodesJs, PostgreSQL.
 
 * Cx Housing
 o Cx Housing isthe digital platform for social housing connects your customer and property data to create a single version of the truth. It allows to manage the customers' differing needs and the property they live in.
