@@ -68,7 +68,6 @@ o	This is my side project. I tried to copy this August home page to show my skil
 o	Use React, Bootstrap and Styled Component to implement
 o	Tech stack: ReactJS, GatsbyJs, Bootstrap, Styled Component
 
-
 * PTE 79 Tips
 o Website: https://pte79.tips
 o GitHub: https://github.com/pte79/pte2
