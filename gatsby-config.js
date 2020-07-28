@@ -33,7 +33,6 @@ module.exports = {
       options: {
         fonts: [
           `Roboto Mono\:400,400i,500,500i,600,600i,700, 700i`,
-          `Space Mono\:400,400i,700, 700i`
           // you can also specify font weights and styles
         ],
         display: "swap",

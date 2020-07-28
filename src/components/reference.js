@@ -4,7 +4,7 @@ import React from "react"
 import { jsx, Heading, Link, Text, Divider } from "theme-ui"
 
 export default function Reference({ name, email, title, tel, linkedin }) {
-  const telHref = `tel:${tel}`
+  // const telHref = `tel:${tel}`
   const mailTo = `mailto:${email}`
   return (
     <React.Fragment>
