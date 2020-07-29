@@ -2,7 +2,7 @@
 import { MdxRoutes } from "@pauliescanlon/gatsby-mdx-routes"
 
 import * as theme
-  from "@pauliescanlon/gatsby-theme-terminal/src/gatsby-plugin-theme-ui"
+  from "@pauliescanlon/gatsby-theme-terminal/src/gatsby-plugin-theme-ui" 
 
 import { Link as GatsbyLink } from "gatsby"
 import { Fragment } from "react"
