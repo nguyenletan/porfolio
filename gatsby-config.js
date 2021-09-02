@@ -27,7 +27,10 @@ module.exports = {
     {
       resolve: "@pauliescanlon/gatsby-theme-terminal",
       options: {
-        source: ["projects"],
+        source: [{
+          name: "projects",
+          dir: `projects`,
+        }],
       },
     },
     {
@@ -49,7 +52,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: [`/404`, `/dummy-page/`, `/dev-404-page/`, `/404.html`],
+        excludes: [`/404`, `/dummy-page/`, `/dev-404-page/`, `/404.html`],
         createLinkInHead: true,
       },
     },
