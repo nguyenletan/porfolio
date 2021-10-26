@@ -20,8 +20,10 @@ SKILLS
 =============================================
 * ReactJS
 * JavaScript
+* TypeScript
 * HTML5 + CSS3
 * Bootstrap
+* TailwindCss
 * C#, .NET
 * GraphQL
 * NodeJs
@@ -33,6 +35,14 @@ SKILLS
 =============================================
 EMPLOYMENT
 =============================================
+* BEE (Singapore Startup)	
+  Full stack NodeJS developer
+  Sep 2020 - Now
+
+* Our Very Own, Australia
+  Front End developer
+  Jan 2021 to Jun 2021
+
 * NashTech VietNam
   Senior Front-end Software Engineer
   Dec 2009 - Jan 2020
@@ -55,6 +65,18 @@ Graduated with a CGPA of 8.02 / 10 (UGC 10-point system).
 =============================================
 PROJECTS CONTRIBUTIONS
 =============================================
+* BEE (Singapore startup)	Sep 2020 to Now
+o	BEE acts as a dedicated Business Intelligence (BI) software that provides visibility to client organisations on electrical energy performance estimates from their facility's (building's) electrical consumption.
+o	Use Postgres database, ReactJs and Recoil for front-end side, NestJs + Prisma Js for API back-end side.
+o	Use React, Gatsby, Bootstrap and Drupal to implement
+o	Tech stack: ReactJS, Bootstrap, Styled Component, NestJs, NodeJs, Prisma.
+
+KidsFirst	Jan 2021 to Jun 2021
+o	Website: https://www.kidsfirstaustralia.org.au/ 
+o	Kids First is a leading provider of education, family, and support services for children and families in Melbourne. Kids First have over 120 years in the childcare industry. In 2019, Kids First revamped its website to give it a new, professional, and modern look. They also wanted to improve its speed by using GatsbyJs - an open-source static website generator (SSG).
+o	Use React, Gatsby, Bootstrap and Drupal to implement
+o	Tech stack: ReactJS, GatsbyJs, Bootstrap, Styled Component
+
 * Personal website, side project
 o	Website: https://tannguyenle.info
 o	GitHub: https://github.com/nguyenletan/porfolio
