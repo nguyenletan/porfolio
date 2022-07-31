@@ -10,7 +10,7 @@
     "@mdx-js/react": "^1.6.22",
     "@pauliescanlon/gatsby-theme-terminal": "^1.3.0",
     "@theme-ui/prism": "^0.11.1",
-    "gatsby": "^3.13.0",
+    "gatsby": "^3.13.1",
     "gatsby-plugin-canonical-urls": "^3.13.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-mdx": "^2.10.0",
